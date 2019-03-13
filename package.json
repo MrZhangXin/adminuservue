@@ -1,0 +1,62 @@
+{
+  "name": "adminbenyun",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.3.5",
+    "element-ui": "^2.6.1",
+    "js-cookie": "^2.2.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2",
+    "vue-simple-tree": "^2.3.2",
+    "vuex": "^3.1.0",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
