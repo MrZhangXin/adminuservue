@@ -99,7 +99,7 @@
     }
 
     .sidebar-title-wrapper {
-        width: 380px;
+        width: 100%;
         line-height: 60px;
         text-align: center;
 
@@ -108,8 +108,8 @@
     .sidebar-item-wrapper {
         display: none;
         position: absolute;
-        width: 300px;
-        left: 380px;
+        width: 190px;
+        left: 190px;
         top: 0;
         height: 100%;
 

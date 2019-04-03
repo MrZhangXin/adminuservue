@@ -37,11 +37,19 @@
         }
     }
 </script>
-<style lang="less">
+<style>
     .flexBox{
-        display: flex;
+        position: relative;
     }
-    .flexBox>div{
-        flex: 1;
-    }
+   .flexBox>.left{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 190px;
+       bottom: 0;
+       z-index: 99999;
+   }
+   .flexBox>.right{
+       padding-left: 190px;
+   }
 </style>
